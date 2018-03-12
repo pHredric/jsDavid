@@ -1,5 +1,5 @@
 .content{
-    margin:20%;
+    margin:10%;
     margin-top: 10px;
     background-color: wheat;
     display: flex;
@@ -12,5 +12,5 @@
 }
 
 img{
-    /* max-width:100px; */
+     max-width:100%;
 }
