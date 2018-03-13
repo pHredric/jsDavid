@@ -1,0 +1,23 @@
+{
+  "name": "ovning5",
+  "version": "1.0.0",
+  "description": "nr5",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cssComp" :"lessc main.less main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pHredric/jsDavid.git"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pHredric/jsDavid/issues"
+  },
+  "homepage": "https://github.com/pHredric/jsDavid#readme",
+  "devDependencies": {
+    "less": "^3.0.1"
+  }
+}
