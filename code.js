@@ -1,3 +1,6 @@
+let movieData = require("./data");
+let $ = require("jquery");
+
 function OldRenderData(movie)
 {
     let image = document.getElementById('movieImage');
@@ -86,3 +89,5 @@ for (let index = 1; index <= 5; index++) {
         ChangeStarRating(index);
     })
 }
+
+console.log("!");

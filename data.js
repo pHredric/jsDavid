@@ -1,4 +1,4 @@
-let movieData = {
+module.exports = {
     title: "Inception",
     imgSrc: "http://www.spelochfilm.se/wp-content/uploads/2017/03/inception2-678x381.jpg",
     description: `A very meta movie about dreams within dreams. And then there was
