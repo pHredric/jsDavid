@@ -3,16 +3,16 @@ let $ = require("jquery");
 
 function OldRenderData(movie)
 {
-    let image = document.getElementById('movieImage');
+    let image = document.getElementById("movieImage");
     image.setAttribute("src", movie.imgSrc);
 
-    let title = document.getElementById('movieTitle');
+    let title = document.getElementById("movieTitle");
     title.innerText = movie.title;
 
-    let desc = document.getElementById('movieDescription');
+    let desc = document.getElementById("movieDescription");
     desc.innerText = movie.description;
 
-    let actorlistholder = document.getElementById('movieActors');
+    let actorlistholder = document.getElementById("movieActors");
     let actorString = "";
     movie.actors.forEach(actorname => {
         actorString += "<li>"+actorname+"</li>";
@@ -41,11 +41,11 @@ function OldChangeStarRating(grade)
 
 function RenderData(movie)
 {
-    $('#movieImage').attr("src", movie.imgSrc);
-    $('#movieTitle').text(movie.title);
-    $('#movieDescription').text(movie.description);
+    $("#movieImage").attr("src", movie.imgSrc);
+    $("#movieTitle").text(movie.title);
+    $("#movieDescription").text(movie.description);
     movie.actors.forEach(actorname => {
-        $('#movieActors').append("<li>"+actorname+"</li>");;
+        $("#movieActors").append("<li>"+actorname+"</li>");;
     });
 };
 

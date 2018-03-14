@@ -1,0 +1,26 @@
+script bundle: - letar i webpack.config.js för att se vad den ska göra, 
+samt var den ska lägga saker. Den är smart nog att skapa mappar som saker ska 
+ligga i om de inte finns.
+
+script cssComp: - kompilerar less-fil till css som webläsare förstår. 
+less-filer kan ha bättre, mer avancerad syntax som inte webläsare förstår.
+lessc: startar lesskompilering,
+main.less: less-filen som ska kompileras ,
+main.css: namnet på filen samt dess relativa path
+
+script start:dev : - startar devservern som automatiskt laddar om webläsaren när vi 
+    sparar / kompilerar om filer.
+    Hämtar inställningar från webpack.config.js
+
+script copyindex : - kopierar en fil till annan plats
+    cp: (eller copy i windows kommandprompt, använd helst gitbash) kopierar fil,
+    index.html : namn på fil som ska kopieras,
+    distribution/index.html : namn filen ska heta samt dess relativa path.
+
+script build : kör tre skript efter varandra.
+
+script lintless : kollar specade filer efter brott mot reglerna i .stylelintrc
+
+script lintjs : kollar specade filer efter brott mot reglerna i .eslintrc
+
+script lint : kör lintless och sedan lintjs.
